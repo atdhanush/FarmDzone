@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgrounddesign"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"
+                android:text="Bacterial Spot" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"
+                android:text="Early Blight" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"
+                android:layout_height="80dp"
+                android:text="Late Blight" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:textSize="25dp"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"
+                android:text="Leaf Mold" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"
+                android:text="Mosaic virus" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"
+                android:text="Septoria Leaf Spot" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"
+                android:text="Spider mites Two-spotted spider mite" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"                android:text="Target Spot" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"                android:text="Healthy" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAllCaps="false"
+                android:textSize="25dp"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="20dp"                android:text="Yellow Leaf Curl Virus" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
